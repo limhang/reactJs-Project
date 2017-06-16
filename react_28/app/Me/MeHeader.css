@@ -1,0 +1,18 @@
+*{padding: 0;margin: 0;}
+li{list-style: none;}
+.header-section1{height: 100px;pading-bottom: 10px;background-color: #1e1e1e;position: relative;}
+.header-section2{height: 60px;position: relative;background-color: #1e1e1e;}
+.header-section1 .pro-img{width: 80px;height: 80px;border-radius: 50px;background-color: #007aff;background-image:url(/image/01.jpg);background-repeat:no-repeat;position: absolute;top: 10px;left: 10px;}
+.header-section1 .pro-info .login{position: absolute;font-size: 16px;color: #ffffff;left: 120px;top: 20px;}
+.header-section1 .pro-info .ms{position: absolute;font-size: 14px;color: #999999;top: 50px;left: 120px;}
+.header-section1 .pro-arrow{position: absolute;top: 30px;left: calc(100vw - 40px);color: #ffffff;font-size: 30px;}
+
+.header-section2 .money-left{position: absolute;left: 0;padding-left: 15px;border-right: 1px solid #f1f1f1;height: 60px;width: 33%;}
+.header-section2 .money-flow{position: absolute;left: 33%;padding-left: 15px;border-right: 1px solid #f1f1f1;height: 60px;width: 33%;}
+.header-section2 .money-into{position: absolute;left: 66%;padding-left: 15px;border-right: 1px solid #f1f1f1;height: 60px;width: 33%;}
+
+.header-section2 .money-left .much {color: #fdb904;font-size: 14px;top: 10px;position: absolute;left: calc((33vw - 20px)/2);}
+.header-section2 .money-flow .much {color: #fdb904;font-size: 14px;position: absolute;top:10px;left: calc((33vw - 20px)/2);}
+.header-section2 .money-into .much {color: #fdb904;font-size: 14px;position: absolute;top: 10px;left: calc((33vw - 20px)/2);}
+
+.header-section2 .money-left .left ,.flow,.into {color:#999999;font-size: 12px;position: absolute;top: 30px;left:calc((33vw - 20px)/2);}
